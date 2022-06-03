@@ -8,7 +8,7 @@ const myTimer = async (time, clock) => {
   for (let i = time; i >= 0; --i) {
     await new Promise((resolve, reject) => {
       setTimeout(resolve, 1000);
-
+      // The padstart converts the seconds to XX double digit format with default pad value as '0'
       clock.innerHTML = `00:${String(i).padStart(2, "0")}`;
     });
   }
