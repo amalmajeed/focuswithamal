@@ -1,0 +1,23 @@
+{
+  "name": "pomodorotimer",
+  "version": "1.0.0",
+  "description": "Create Date: 06/03/22 Author: Amal Status: TBD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amalmajeed/pomodorotimer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amalmajeed/pomodorotimer/issues"
+  },
+  "homepage": "https://github.com/amalmajeed/pomodorotimer#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
