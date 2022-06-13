@@ -6,27 +6,95 @@ body{
     height: 100%;
 }
 
-.main{
+#page{
     display: flex;
     height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main{
+    display: flex;
+    height: 80%;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
     justify-content: center;
+    
 }
 
 .main h1{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 56;
 }
 
- 
-.main #clock{
+.main h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#clockboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    /* margin-bottom: 50px; */
+}
+
+#focusbox{
+    display: flex;
+    flex-direction: column;
+    width:320px;
+    height:180px;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: beige;
+    border-radius: 30px;
+}
+
+#focusclock{
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     font-size: 70;
+    margin-bottom: 0px;
+}
+
+#breakbox{
+    display: flex;
+    flex-direction: column;
+    width:320px;
+    height:180px;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: beige;
+    border-radius: 30px;
+}
+
+#breakclock{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 70;
+    margin-bottom: 0px;
+}
+
+
+#startbutton{
+    margin-bottom: 50px;
+}
+
+#footer{
+    height: 8%;
+    background-color: rgb(222, 219, 177);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 
