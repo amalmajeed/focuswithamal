@@ -1,10 +1,7 @@
 var startButton = document.querySelector("#startbutton");
-var timerDisplay = document.querySelector("#clock");
-var minutes = 45;
+var timerDisplay = document.querySelector("#focusclock");
+var minutes = 25;
 var btnDisable = false;
-
-var StrtBtn = `<button id="startbutton" class="btn btn-success">Start</button>`;
-var ResetBtn = `<button id="resetbutton" class="btn btn-danger">Reset</button>`;
 
 // Function that triggers the count-down and updates the clock display in the html
 const myTimer = async (time, clock) => {
@@ -30,13 +27,13 @@ const myTimer = async (time, clock) => {
     }
   }
   btnDisable = false;
-  clock.innerHTML = "45:00"; // Need to add reset functionality
+  clock.innerHTML = "25:00"; // Need to add reset functionality
 };
 
 startButton.addEventListener("click", () => {
   if (!this.btnDisable) {
     btnDisable = true;
-    this.startButton.innerHTML = "Reset";
+    this.startButton.innerHTML = "Master reset";
     this.startButton.classList.add("btn-danger");
     this.startButton.classList.remove("btn-success");
     myTimer(this.minutes, this.timerDisplay);
@@ -45,7 +42,7 @@ startButton.addEventListener("click", () => {
     this.startButton.innerHTML = "Start";
     this.startButton.classList.add("btn-success");
     this.startButton.classList.remove("btn-danger");
-    this.timerDisplay.innerHTML = `45:00`;
+    this.timerDisplay.innerHTML = `25:00`;
   }
 });
 
