@@ -16,10 +16,24 @@
                     <div id="focusbox">
                         <h3>Focus timer</h3>
                         <p id="focusclock">25:00</p>
+                        <div id ="focusdropdown">
+                               <form>
+                                    <select id="fdropdown" name="focuslength" >
+                                       
+                                    </select>
+                            </form>
+                        </div>
                     </div>
                     <div id="breakbox">
                         <h3>Break timer</h3>
                         <p id="breakclock">05:00</p>
+                        <div id ="breakdropdown">
+                            <form>
+                                 <select id="bdropdown" name="breaklength" >
+                                    
+                                 </select>
+                         </form>
+                     </div>
                     </div>
                 </div>
                 <button id="startbutton" class="btn btn-success">Start</button>
@@ -30,4 +44,23 @@
         </div>
     </body> 
     <script type="module" src="./lib/bundle.js"></script>
+    <script>
+        
+       
+
+        //   function focusSet(){
+        //     var timerDisplay1 = document.querySelector("#focusclock");
+        //     const focusDropdown = document.querySelector("#fdropdown");
+        //     timerDisplay1.innerHTML = focusDropdown.options[focusDropdown.selectedIndex].value.padStart(2, "0")+":"+"00";
+        //   }
+          
+        //   function breakSet(){
+        //     var timerDisplay2 = document.querySelector("#breakclock");
+        //     const breakDropdown = document.querySelector("#bdropdown");
+        //     timerDisplay2.innerHTML = breakDropdown.options[breakDropdown.selectedIndex].value.padStart(2, "0")+":"+"00";
+        //   }
+
+
+        
+    </script>
 </html>

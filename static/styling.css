@@ -51,7 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     width:320px;
-    height:180px;
+    height:250px;
     text-align: center;
     /* align-items: center; */
     justify-content: center;
@@ -70,7 +70,7 @@ body{
     display: flex;
     flex-direction: column;
     width:320px;
-    height:180px;
+    height:250px;
     text-align: center;
     /* align-items: center; */
     justify-content: center;
