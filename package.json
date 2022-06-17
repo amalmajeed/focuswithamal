@@ -11,7 +11,7 @@
     "url": "git+https://github.com/amalmajeed/pomodorotimer.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Amal Majeed",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/amalmajeed/pomodorotimer/issues"
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/amalmajeed/pomodorotimer#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
   }
 }

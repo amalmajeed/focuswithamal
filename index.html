@@ -5,6 +5,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./static/styling.css">
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
     </head>
     <body>
         <div id="page">
@@ -15,18 +16,41 @@
                     <div id="focusbox">
                         <h3>Focus timer</h3>
                         <p id="focusclock">25:00</p>
+                        <div id ="focusdropdown">
+                               <form>
+                                    <select id="fdropdown" name="focuslength" >
+                                       
+                                    </select>
+                            </form>
+                        </div>
                     </div>
                     <div id="breakbox">
                         <h3>Break timer</h3>
                         <p id="breakclock">05:00</p>
+                        <div id ="breakdropdown">
+                            <form>
+                                 <select id="bdropdown" name="breaklength" >
+                                    
+                                 </select>
+                         </form>
+                     </div>
                     </div>
                 </div>
-                <button id="startbutton" class="btn btn-success">Start</button>
+                <button id="startbutton" class="btn btn-success btn-lg" >Start</button>
             </div>
             <div id="footer">
-    
+                <div id="bootstrapplug">
+                   <span class="footer-text"> Powered by <a class="footer-text" href="https://getbootstrap.com/"> Bootstrap V.5.1.3 </a></span> 
+                </div>
+                <div id="socialmedialinks">
+                    <a class="footer-text" href="https://www.linkedin.com/in/amal-majeed-a31543105/"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+                    <a class="footer-text" href="https://github.com/amalmajeed"><ion-icon name="logo-github" size="large"></ion-icon></a>
+                </div>
             </div>
         </div>
+        <!-- SOCIAL MEDIA ICONS -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body> 
-    <script type="text/javascript" src="./timer.js"></script>
+    <script type="module" src="./lib/bundle.js"></script>
 </html>
