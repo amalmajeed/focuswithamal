@@ -4,6 +4,7 @@ html{
 
 body{
     height: 100%;
+    background-color: rgb(22, 21, 21);
 }
 
 #page{
@@ -17,7 +18,6 @@ body{
     display: flex;
     height: 80%;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     justify-content: center;
     
@@ -28,6 +28,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 56;
+    color: antiquewhite;
 }
 
 .main h3{
@@ -37,6 +38,10 @@ body{
     text-align: center;
 }
 
+#roundcount{
+    color: antiquewhite;
+}
+
 #clockboxes{
     display: flex;
     flex-direction: row;
@@ -44,7 +49,7 @@ body{
     align-items: center;
     width: 1000px;
     height: 300px;
-    /* margin-bottom: 50px; */
+    
 }
 
 #focusbox{
@@ -53,7 +58,6 @@ body{
     width:320px;
     height:250px;
     text-align: center;
-    /* align-items: center; */
     justify-content: center;
     background-color: beige;
     border-radius: 30px;
@@ -72,7 +76,6 @@ body{
     width:320px;
     height:250px;
     text-align: center;
-    /* align-items: center; */
     justify-content: center;
     background-color: beige;
     border-radius: 30px;
@@ -91,10 +94,35 @@ body{
 }
 
 #footer{
-    height: 8%;
-    background-color: rgb(222, 219, 177);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    height: 10%;
+    background-color: rgb(22, 21, 21);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer-text{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: lighter;
+   color: white
+}
+
+#bootstrapplug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#socialmedialinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+
 }
 
 
