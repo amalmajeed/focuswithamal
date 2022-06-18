@@ -1,5 +1,5 @@
 
- # <p align="center">  [Focus with Amal](https://focuswithamal.netlify.app/) </p>
+ # <p align="center" style="{color:black}">  [Focus with Amal](https://focuswithamal.netlify.app/) </p>
 
 
 ### <p align="center"> Version 1.0.0 </p>
