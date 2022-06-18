@@ -13,9 +13,9 @@ Simple web app emulating a 3 round pomodoro timer. You can use it to study, edit
  
  Tech Stack : 
  
- -HTML 5
- -Bootstrap V5.1.3
- -Javascript (Node V.18.2.0)
+ - HTML 5
+ - Bootstrap V5.1.3
+ - Javascript (Node V.18.2.0)
   - Runtime dependencies: None
   - Dev dependencies: browserify v.17.0.0
 </p>
