@@ -21,7 +21,7 @@ This project is a simple web app emulating a 3 round [pomodoro](https://en.wikip
  **Tech Stack** : 
  
  - HTML 5
- - Bootstrap V5.1.3
+ - Bootstrap V.5.1.3
  - Javascript (Node V.18.2.0)
      * Runtime dependencies: None
      * Dev dependencies: browserify v.17.0.0
