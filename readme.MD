@@ -13,9 +13,9 @@ Simple web app emulating a 3 round pomodoro timer. You can use it to study, edit
  
 
 
-[![Step 1](./static/seq1.png)]
-[![Step 2](./static/seq2.png)]
-[![Step 3](./static/seq3.png)]
+![Step 1](./static/seq1.png)
+![Step 2](./static/seq2.png)
+![Step 3](./static/seq3.png)
 
 
  **Tech Stack** : 
