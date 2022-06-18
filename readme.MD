@@ -11,7 +11,7 @@
 
 Simple web app emulating a 3 round pomodoro timer. You can use it to study, edit, write, code/debug etc. Pretty much any task that can be done in cycles of focus periods and breaks in between to reset. 
  
- Tech Stack : 
+ **Tech Stack** : 
  
  - HTML 5
  - Bootstrap V5.1.3
