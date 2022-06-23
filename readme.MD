@@ -9,7 +9,7 @@
 
 <p align="center">
 
-This project is a simple web app emulating a 3 round [pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) timer. You can use it to study, edit, write, code/debug etc. Pretty much any task that can be done in cycles of focus periods and breaks in between to reset. 
+This project is a simple web app emulating a 3 round [pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) timer. You can use it to study, edit, write, code/debug etc. Pretty much any task that can be done in cycles of focus periods and breaks in between to reset. Open in a new window of your browser and run the timer (do not close or minimise while running). 
  
 
 
